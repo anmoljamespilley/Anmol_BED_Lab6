@@ -22,7 +22,8 @@ In the College fest, students want to manage registrations for a Debate event an
 5. Implement a security layer with two roles: USER and ADMIN.
    - ADMIN has the privilege to perform all operations.
    - USER can view and save details.
-
+     
+## P.S:
 **Make sure to replace user and pass in 'application.properties'<br>
 **The project follows a standard structure.<br>
 **Proper error handling is implemented.<br>
