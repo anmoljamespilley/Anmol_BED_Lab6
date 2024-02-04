@@ -1,23 +1,24 @@
-# Anmol_BED_Lab6
+# Anmol_BED_Lab6 - College Fest Debate Event Registration
 
-Problem Statement: 
-In College fest, Students want to take registrations for a Debate event and want to keep track of student details based on the course.
-Help the students to create a table with the help of Spring, MVC, Hibernate ORM to perform CRUD operations on the table.
+## Problem Statement
 
-Sample Table: 
+In the College fest, students want to manage registrations for a Debate event and keep track of student details based on the course. The goal is to create a table using Spring, MVC, and Hibernate ORM to perform CRUD operations on the table.
 
-Student Id	FirstName	LastName	Course	Country
-1	          Suresh	  Reddy	    B.Tech	India
-2          	Murali  	Mohan    	B.Arch	Canada
-3	          Daniel	  Denson	  B.Tech	New Zealand
-4          	Tanya	    Gupta    	B.Com  	USA
+## Sample Table
 
-Create a Dynamic web project and make sure that the following operations can be performed.
+| Student Id | FirstName | LastName | Course | Country    |
+|------------|-----------|----------|--------|------------|
+| 1          | Suresh    | Reddy    | B.Tech | India      |
+| 2          | Murali    | Mohan    | B.Arch | Canada     |
+| 3          | Daniel    | Denson   | B.Tech | New Zealand|
+| 4          | Tanya     | Gupta    | B.Com  | USA        |
 
-Insert new records into the table.
-Update existing records into the table.
-Delete existing records from the table.
-Print all records from the table.
-Add a security layer where there will be two roles USER, ADMIN.
-Admin will have the privilege of performing all the operations.
-User can view/save the details.
+## Requirements
+
+1. Insert new records into the table.
+2. Update existing records in the table.
+3. Delete existing records from the table.
+4. Print all records from the table.
+5. Implement a security layer with two roles: USER and ADMIN.
+   - ADMIN has the privilege to perform all operations.
+   - USER can view and save details.
