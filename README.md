@@ -28,5 +28,5 @@ In the College fest, students want to manage registrations for a Debate event an
 **The project follows a standard structure.<br>
 **Proper error handling is implemented.<br>
 **The indentations are correct.<br>
-**industry level new/advanced methods are used for better approach, yet keeping the project structure simple.<br>
+**industry standard new/advanced methods are used for better approach, yet keeping the project structure simple.<br>
 **security config as required per ADMIN and USER roles.<br>
