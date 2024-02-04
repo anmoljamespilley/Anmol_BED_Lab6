@@ -39,11 +39,11 @@ public class DataLoader implements CommandLineRunner {
         // Check if students already exist
         if (studentRepository.count() == 0) {
             // Load 5 sample students
-            Student student1 = new Student("Chris", "Martin", "Biology", "India");
-            Student student2 = new Student("John", "Doe", "Computer Science", "USA");
-            Student student3 = new Student("Jane", "Smith", "Mathematics", "Canada");
-            Student student4 = new Student("Mike", "Johnson", "Physics", "UK");
-            Student student5 = new Student("Emily", "Williams", "Chemistry", "Australia");
+            Student student1 = new Student("Anmol", "Pilley", "MBA", "India");
+            Student student2 = new Student("John", "Doe", "B.Tech", "USA");
+            Student student3 = new Student("Jane", "Smith", "B.Arch", "Canada");
+            Student student4 = new Student("Mike", "Johnson", "B.Tech", "UK");
+            Student student5 = new Student("Emily", "Williams", "B.Com", "Australia");
 
             studentRepository.saveAll(Arrays.asList(student1, student2, student3, student4, student5));
         }
