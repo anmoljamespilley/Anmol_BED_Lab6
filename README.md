@@ -30,3 +30,4 @@ In the College fest, students want to manage registrations for a Debate event an
 **The indentations are correct.<br>
 **industry standard new/advanced methods are used for better approach, yet keeping the project structure and code simple.<br>
 **security config as required per ADMIN and USER roles.<br>
+**sample DataLoader is included to load initial (sample) data.<br>
